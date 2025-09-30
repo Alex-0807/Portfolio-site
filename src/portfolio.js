@@ -127,7 +127,7 @@ const educationInfo = {
     {
       schoolName: "The University of Adelaide",
       logo: require("./assets/images/uoa-logo.gif"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Compiting and Innovation",
       duration: "July 2024 - expected July 2026",
       desc: "",
       // descBullets: [
