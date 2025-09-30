@@ -69,7 +69,8 @@ export default function StartupProject() {
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
-                            <span
+                            <div>
+                              <span
                               key={i}
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
@@ -78,6 +79,18 @@ export default function StartupProject() {
                             >
                               {link.name}
                             </span>
+                            <span
+                              key={i}
+                              className={
+                                isDark ? "dark-mode project-tag" : "project-tag"
+                              }
+                              onClick={() => openUrlInNewTab('https://adelaide-neighborhood-hub.onrender.com/api/health')}
+                            >
+                              Click this link first to start the backend server
+                            </span>
+                            </div>
+                            
+                            
                           );
                         })}
                       </div>
